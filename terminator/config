@@ -1,0 +1,53 @@
+[global_config]
+  enabled_plugins = InactivityWatch, ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.79
+  scroll_tabbar = True
+  tab_position = hidden
+  title_transmit_bg_color = "#ee6161"
+[keybindings]
+  cycle_next = <Primary><Shift>n
+  cycle_prev = <Primary><Shift>p
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.58
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollback_lines = 1000
+  [[CUback]]
+    background_color = "#ffffff"
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#000000"
+  [[nord]]
+    audible_bell = True
+    background_color = "#2e3440"
+    cursor_color = "#D8DEE9"
+    font = DejaVu Sans Mono 12
+    foreground_color = "#d8dee9"
+    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#e5e9f0:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#8fbcbb:#eceff4"
+    urgent_bell = True
+    use_system_font = False
